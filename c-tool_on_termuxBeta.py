@@ -181,12 +181,22 @@ if menu_color == '':
 
 #Texts
 time_now=datetime.now().strftime(BRed+"%Y-%m-%d %H:%M:%S"+reset_colors+menu_color)
+
+version=BRed+"BetaV0.14.9"+reset_colors
+
 logo=TRed+"""
    ______   ______            __"""+TYellow+"""
   / ____/  /_  __/___  ____  / /"""+TGreen+"""
  / /  ______/ / / __ \/ __ \/ /"""+TBlue+"""
 / /__/_____/ / / /_/ / /_/ / /"""+TSkyblue+"""
-\____/    /_/  \____/\____/_/"""+BRed+"BetaV0.14.8"+reset_colors
+\____/    /_/  \____/\____/_/"""+version
+
+logo1=TRed+"""
+    _/_/_/      _/_/_/_/_/                     _/"""+TYellow+"""
+  _/                _/      _/_/      _/_/    _/"""+TGreen+"""
+ _/    _/_/_/_/_/  _/    _/    _/  _/    _/  _/"""+TBlue+"""
+_/                _/    _/    _/  _/    _/  _/"""+TSkyblue+"""
+ _/_/_/          _/      _/_/      _/_/    _/"""+version
 
 RS="""Only my railgun
 Hi,Bilibili
@@ -301,7 +311,7 @@ program_enviroment_texts=menu_color+"""
 
 def main_menu():
     time_now=datetime.now().strftime(BRed+"%Y-%m-%d %H:%M:%S"+reset_colors+menu_color)
-    print("\n\n\n"+logo+"\n")
+    print("\n\n\n"+random.choice([logo,logo1])+reset_colors+"\n")
     print_saying()
     print(main_menu_texts)
     choose=input(TGreen+"C-Tool User => "+reset_colors)
