@@ -8,7 +8,7 @@ Enjoy it!<br />
 <h4>下载</h4>
 <p>
 <strong>命令行执行:</strong>
-pkg install python -y && pkg install wget && cd && wget https://github.com/MrWhite-C/C-Tool/releases/download/Betav0.14.x/c-tool_on_termuxBeta.py && python c-tool_on_termuxBeta.py
+pkg install python -y && pkg install wget -y && cd && wget https://github.com/MrWhite-C/C-Tool/releases/download/Betav0.14.x/c-tool_on_termuxBeta.py && python c-tool_on_termuxBeta.py
 </p>
   
 # 关于版权
