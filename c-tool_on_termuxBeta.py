@@ -115,7 +115,7 @@ import psutil
 
 
 #Shell Scripts
-installjava="pkg in git -y && cd && git clone https://github.com/Egrak/Termux-java.git && mv Termux-java/javainstaller.sh . && rm -rf Termux-java && bash javainstaller.sh"
+installjava="pkg in proot -y && pkg in git -y && cd && git clone https://github.com/Egrak/Termux-java.git && mv Termux-java/javainstaller.sh . && rm -rf Termux-java && bash javainstaller.sh"
 downloadall="apt upgrade && apt update && apt-get install vim -y && apt-get install vim -y && apt-get install vim -y &&"
 download_annie="pkg in wget && cd && wget https://github.com/iawia002/annie/releases/download/0.10.3/annie_0.10.3_Linux_ARM64.tar.gz && tar -xvzf annie_0.10.3_Linux_ARM64.tar.gz && chmod +x annie && mv annie ../usr/bin && rm annie_0.10.3_Linux_ARM64.tar.gz"
 
@@ -351,6 +351,7 @@ def program_enviroment():
     choose=input(TGreen+"C-Tool User => "+reset_colors)
     if choose == '1':
         os.system(installjava)
+        print("使用Java前请执行termux-chroot")
     elif choose == 'a':
         exit()
     else:
