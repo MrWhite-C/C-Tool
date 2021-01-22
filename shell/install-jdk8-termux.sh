@@ -1,0 +1,1 @@
+pkg in proot -y && pkg in git -y && cd && git clone https://github.com/Egrak/Termux-java.git && mv Termux-java/javainstaller.sh . && rm -rf Termux-java && bash javainstaller.sh
