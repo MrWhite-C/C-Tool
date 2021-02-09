@@ -1,5 +1,6 @@
 # C-Tool
-<p>新版C-Tool将会更新,Please expect</p>
+<p>C-Tool是基于Termux的一个小工具，它可以帮助您安装jdk，备份Termux等等</p>
+<p>现在C-Tool已经采用C++编写了安装方法如下</p>
 
 
 
