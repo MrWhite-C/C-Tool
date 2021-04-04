@@ -2,7 +2,7 @@
 <p>C-Tool是Termux的一个小工具，它可以帮助您安装一些实用工具</p>
 <p>现在C-Tool已经采用C++编写了</p>
 <p>使用以下方法安装:</p>
-<p><strong></strong></p>
+<p><strong>pkg in wget -y && wget https://github.com/MrWhite-C/C-Tool/releases/download/untagged-1f59987f4e8c1d0e6e4c/installc-tool.sh && bash installc-tool.sh</strong></p>
 <p>现在输入 <strong>c-tool</strong> 就可以启动程序Enjoy it</p>
 
 
