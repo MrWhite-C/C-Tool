@@ -1,5 +1,5 @@
 # C-Tool
-<p>C-Tool是Ubuntu的一个小工具，它可以帮助您安装一些实用工具</p>
+<p>C-Tool是Termux的一个小工具，它可以帮助您安装一些实用工具</p>
 <p>现在C-Tool已经采用C++编写了</p>
 <p>使用以下方法安装:</p>
 <p><strong></strong></p>
