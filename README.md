@@ -3,7 +3,7 @@
 <p>现在C-Tool已经采用C++编写了</p>
 <p>使用以下方法安装:</p>
 <p><strong>1. pkg in wget -y</strong></p>
-<p><strong>2. wget https://github.com/MrWhite-C/C-Tool/releases/download/Betav0.1/c-tool</strong></p>
+<p><strong>2. wget https://github.com/MrWhite-C/C-Tool/releases/download/Latest.Always/c-tool</strong></p>
 <p><strong>3. chmod +x c-tool</strong></p>
 <p><strong>4. mv c-tool $PREFIX/bin</strong></p>
 <p>现在您可以使用c-tool来启动c-tool了</p>
